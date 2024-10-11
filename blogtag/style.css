@@ -1,0 +1,236 @@
+/*
+Theme Name: Blogtag
+Theme URI: https://themeansar.com/free-themes/blogtag-free-blog-wordpress-theme/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Blogtag is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Blogtag is suitable for dynamic news, newspapers, magazine, publishers, blogtag, editors, online and gaming magazines, newsportals,personal blogtag, newspaper, publishing or review siteand any creative website. Blogtag is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/blogdata/blogtag/ and documentation at https://docs.themeansar.com/docs/blogdata/
+Version: 0.3
+Requires PHP: 7.0
+Requires at least: 5.4
+Tested up to: 6.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: blogdata
+Text Domain: blogtag
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Blogtag WordPress Theme is child theme of Blogus, Copyright 2023 Themeansar
+Blogtag is distributed under the terms of the GNU General Public License v3
+
+Blogtag is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+*:focus {
+    outline: 1px solid;
+}
+.navbar-toggler.x:focus,
+button:focus {
+    border: 1px solid;
+    outline: 2px dotted #000;
+}
+
+p a {
+    text-decoration: underline;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: "Josefin Sans", sans-serif;
+}
+.site-title { 
+    font-family: "Josefin Sans", sans-serif;
+}
+.navbar-wp .navbar-nav > li> a { 
+    font-family: "Josefin Sans", sans-serif;
+}
+body { 
+    font-family: "Josefin Sans", sans-serif;
+}
+footer .site-branding-text .site-title-footer a{
+    font-family: "Josefin Sans", sans-serif;
+}
+#main-nav .blogdata-customizer-edit-icon { 
+    left: 45%;
+}
+.site-branding-text .site-title{
+    font-size: 80px;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.036em;
+}
+.page-entry-title{
+    padding: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    box-shadow: none;
+}
+header .site-branding-text{
+    text-align: center;
+}
+.bs-menu-full .navbar-brand img{
+    margin: auto;
+}
+.site-logo .navbar-brand{
+    display: inline-block;
+}
+.list-blog .bs-blog-thumb{
+    min-height: 300px;
+}
+.list-blog.bs-blog-post{
+    align-items: center;
+}
+.bs-blog-post .title a {
+    background-position: left 95%;
+}
+.bs-blog-post .title a:hover {
+    background-position: left 95%;
+}
+.widget_block .wp-block-heading, .wp-block-search__label{
+    position: relative;
+    margin-bottom: 20px;
+}
+.bs-widget-title.one .title::before, .widget_block .wp-block-heading::before, .wp-block-search__label:before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 12.5%;
+    bottom: -8px;
+    z-index: 1;
+}
+.bs-widget-title.one .title::before{
+    width: 40%;
+}
+.wp-block-search__button-outside{
+    overflow: hidden;
+}
+.wp-block-search .wp-block-search__inside-wrapper{
+    margin-top: 30px;
+}
+.wp-block-search__label::before{
+    width: 60%;
+    transform: translate(0);
+    top: auto;
+}
+.widget_block .wp-block-heading::after, .wp-block-search__label::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100vw;
+    bottom: -7px;
+    left: 0;
+}
+.bs-widget-title.one{
+    border-bottom: 2px solid;
+}
+.bs-breadcrumb-section .overlay{
+    border-radius: var(--bxbra);
+}
+.bs-headfive {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: 8px 0;
+}
+#content .d-grid {
+    row-gap: 48px;
+}
+.missed .bs-widget-title{
+    padding: 0;
+    padding-bottom: 5px;
+}
+.multi-post-widget .bs-blog-post.three.bsm .title {
+    font-size: 24px;
+    line-height: 1.4;
+}
+.blogdata-pagination{
+    margin-top: 0 !important;
+    margin-bottom: 3rem;
+}
+.bs-headfive .bs-menu-full.header-sticky{
+    position: fixed;
+    z-index: 1024;
+    padding: 10px 0;
+}
+label.switch.d-none.d-lg-inline-block {
+    display: none !important;
+}
+.bs-blog-category a::before{
+    opacity: 1;
+}
+.right-nav{
+    flex-wrap: wrap;
+}
+textarea:focus{
+    outline: 0;
+}
+.hedaer-offcanvas .offcanvas-trigger {
+    border: 0;
+    border-radius: 0;
+}
+.bs_upscr {
+    line-height: 2.9rem;
+}
+.search-popup{
+    visibility: inherit;
+    height: 0;
+}
+.search-popup.show-search {
+    visibility: inherit;
+    height: 80%;
+}
+@media (min-width: 992px) {
+    .navbar-wp nav .sm.sm-clean{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .bs-headfive .bs-menu-full .logo{
+        display: none;
+    }
+}
+@media (max-width: 991.98px) {
+    .missed .inner{
+        gap: 0;
+    }
+    .bs-headfive .bs-menu-full .main{
+        justify-content: flex-end;
+    }
+    .bs-headfive .bs-menu-full .navbar-wp{
+        justify-content: flex-end;
+    }
+    .bs-headfive .site-branding-text {
+        text-align: start;
+    }
+    .bs-headfive .bs-menu-full .logo{
+        max-width: 70%;
+    }
+    .site-branding-text .site-title{
+        font-size: 55px;
+    }
+    .list-blog.bs-blog-post .bs-blog-thumb{
+        height: 300px;
+    }
+    .navbar-wp .nav-wp .sm-clean{
+        border-radius: var(--bxbra);
+    }
+    .missedslider {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .bs-menu-full .navbar-brand img{
+        margin: auto 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .list-blog .bs-blog-category, .list-blog .bs-blog-meta{
+        justify-content: center;
+    }
+    .list-blog.bs-blog-post .small{
+        text-align: center;
+    }
+}
+@media (max-width: 575.98px) {
+    .missedslider {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .site-branding-text .site-title{
+        font-size: 35px;
+    }
+}
