@@ -14,9 +14,7 @@ function blogtag_general_customize_register($wp_customize) {
 	$wp_customize->get_setting('header_text_color_on_hover')->default = '#0d6eff';
 	$wp_customize->get_setting('header_text_dark_color_on_hover')->default = '#0d6eff';
 	$wp_customize->get_setting('show_main_banner_section')->default = false;
-	$wp_customize->get_setting('sticky_header_toggle')->default = false;
-	
-	$wp_customize->remove_control('blogdata_lite_dark_switcher');
+
 
 	// $wp_customize->get_control('tren_edit_section_title')->label = esc_html__('Editor Post Section', 'blogtag');
 

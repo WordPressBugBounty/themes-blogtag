@@ -4,8 +4,8 @@ Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns
 Requires at least: 5.4
 Requires PHP: 7.0
 Tested up to: 6.6
-Stable tag: 0.3
-Version: 0.3
+Stable tag: 0.4
+Version: 0.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -83,3 +83,7 @@ Blogtag includes support for WooCommerce and Contact From 7.
 = 0.3 =
 * Update Theme URI.
 
+= 0.4 =
+* Added Customizer Image.
+* Added Dark N Light Switcher.
+* Fixed Responsive Issues.

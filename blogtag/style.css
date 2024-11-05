@@ -4,7 +4,7 @@ Theme URI: https://themeansar.com/free-themes/blogtag-free-blog-wordpress-theme/
 Author: Themeansar
 Author URI: https://themeansar.com
 Description: Blogtag is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Blogtag is suitable for dynamic news, newspapers, magazine, publishers, blogtag, editors, online and gaming magazines, newsportals,personal blogtag, newspaper, publishing or review siteand any creative website. Blogtag is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/blogdata/blogtag/ and documentation at https://docs.themeansar.com/docs/blogdata/
-Version: 0.3
+Version: 0.4
 Requires PHP: 7.0
 Requires at least: 5.4
 Tested up to: 6.6
@@ -149,9 +149,6 @@ header .site-branding-text{
     z-index: 1024;
     padding: 10px 0;
 }
-label.switch.d-none.d-lg-inline-block {
-    display: none !important;
-}
 .bs-blog-category a::before{
     opacity: 1;
 }
@@ -168,19 +165,14 @@ textarea:focus{
 .bs_upscr {
     line-height: 2.9rem;
 }
-.search-popup{
-    visibility: inherit;
-    height: 0;
-}
-.search-popup.show-search {
-    visibility: inherit;
-    height: 80%;
-}
 @media (min-width: 992px) {
     .navbar-wp nav .sm.sm-clean{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .site-logo{
+        text-align: center;
     }
     .bs-headfive .bs-menu-full .logo{
         display: none;

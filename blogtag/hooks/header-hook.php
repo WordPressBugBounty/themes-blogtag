@@ -26,7 +26,7 @@ function blogtag_header_type_section(){
       </div>
     </div>
     <!-- Main Menu Area-->
-    <?php $sticky_header = get_theme_mod('sticky_header_toggle', false ) == true ? ' sticky-header' : ''; ?>
+    <?php $sticky_header = get_theme_mod('sticky_header_toggle', true ) == true ? ' sticky-header' : ''; ?>
     <div class="bs-menu-full<?php echo esc_attr($sticky_header); ?>">
       <div class="inner">
         <div class="container">
