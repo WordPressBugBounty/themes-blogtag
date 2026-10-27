@@ -10,7 +10,6 @@ if ( ! function_exists( 'blogtag_enqueue_styles' ) ) :
 	 * @since 0.1
 	 */
 	function blogtag_enqueue_styles() {
-		wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css');
 		wp_enqueue_style( 'blogdata-style-parent', get_template_directory_uri() . '/style.css' );
 		wp_enqueue_style( 'blogtag-style', get_stylesheet_directory_uri() . '/style.css', array( 'blogdata-style-parent' ), '1.0' );
 		wp_enqueue_style( 'blogtag-default-css', get_stylesheet_directory_uri()."/css/colors/default.css" );
@@ -60,7 +59,7 @@ if( ! function_exists( 'blogtag_add_menu_description' ) ) :
 endif;
 
 $args = array(
-    'default-color' => '#f4f4f4',
+    'default-color' => '#fff',
     'default-image' => '',
 	);
 add_theme_support( 'custom-background', $args );

@@ -1,11 +1,11 @@
 ﻿=== Blogtag ===
 Contributors: Themeansar
 Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
-Requires at least: 5.4
-Requires PHP: 7.0
-Tested up to: 6.6
-Stable tag: 0.4
-Version: 0.4
+Requires at least: 6.0
+Requires PHP: 7.4
+Tested up to: 7.1
+Stable tag: 0.5
+Version: 0.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,44 +26,20 @@ Author: Aamir Afridi
 URL:  http://aamirafridi.com/jquery/jquery-marquee-plugin
 License: MIT
 
+* Google Fonts  
+* Josefin Sans
+    License: [Google Fonts Licensing](https://fonts.google.com/knowledge/glossary/licensing)  
+    Source: [Josefin Sans on Google Fonts](https://fonts.google.com/specimen/Josefin+Sans)
 
 == Image Licence == 
-https://pxhere.com/en/photo/140240
-
-https://stocksnap.io/photo/street-art-KZV4NUANRZ
 License: Creative Commons CC0 license.
 License URI: https://pxhere.com/en/license
-Source: https://pxhere.com/en/photo/1087277
 
-License: Creative Commons CC0 license.
-License URI: https://pxhere.com/en/license
-Source: https://pxhere.com/en/photo/1588583
-
-License: Creative Commons CC0 license.
-License URI: https://pxhere.com/en/license
-Source: https://pxhere.com/en/photo/1363072
-
-License: Creative Commons CC0 license.
-License URI: https://pxhere.com/en/license
-Source: https://pxhere.com/en/photo/1262676 
-
-License: Creative Commons CC0 license.
-License URI: https://pxhere.com/en/license
-Source: https://pxhere.com/en/photo/32966
-
-
-https://stocksnap.io/photo/nature-landscape-F4ZVI5Y7GU
-https://stocksnap.io/photo/people-girl-HQR8BJFZID
-https://stocksnap.io/photo/woman-landscape-CVIPMJXMQB
-
-https://pxhere.com/en/photo/1028432
-https://pxhere.com/en/photo/680951
-https://pxhere.com/en/photo/862296
-https://pxhere.com/en/photo/541877
-
+https://pxhere.com/en/photo/1162007
 https://pxhere.com/en/photo/595813
 https://pxhere.com/en/photo/1127318
 https://pxhere.com/en/photo/1071730
+https://pxhere.com/en/photo/1695228
  
 
 == Frequently Asked Questions ==
@@ -87,3 +63,8 @@ Blogtag includes support for WooCommerce and Contact From 7.
 * Added Customizer Image.
 * Added Dark N Light Switcher.
 * Fixed Responsive Issues.
+
+= 0.5 =
+* Update Readme.
+* Update Screenshot.
+* Performed compatibility and stability testing with WordPress 7.1.
